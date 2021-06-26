@@ -54,3 +54,89 @@
     background: white;
     color: black;
 }
+
+.container-descricao {
+
+    background: rgb(248, 236, 236);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-titulo-secundario {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container-titulo-secundario h2 {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-texto-descricao {
+
+    display: flex;
+    margin-bottom: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container-texto-descricao p {
+
+    margin-left: 5%;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.container-solucoes {
+
+    display: flex;
+    background: rgb(19, 17, 17, 0.8);
+    justify-content: space-around;
+    height: 80vh;
+    padding-right: 15%;
+    padding-left: 15%;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.item-solucoes {
+    background: rgb(248, 236, 236);
+    height: 80%;
+    width: 20vw;
+    margin-top: 6%;
+    
+   
+
+}
+
+
+
+.img-solucoes {
+
+    width: 100%;
+    height: 40%;
+}
+
+.titulos-solucoes {
+
+    font-size: 1.2rem;
+    margin-top: 10%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.paragrafo-solucoes {
+    font-size: 0.8rem;
+    margin-top: 8%;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.1rem;
+}
