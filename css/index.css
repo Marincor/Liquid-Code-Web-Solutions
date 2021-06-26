@@ -14,6 +14,7 @@
     align-items: center;
     color: white;
 
+
 }
 
 .titulo-principal {
@@ -25,7 +26,7 @@
 }
 
 .paragrafo-principal {
-    text-align: justify;
+    text-align: center;
     width: 40%;
     color: rgb(202, 198, 198);
 
@@ -88,7 +89,7 @@
 .container-texto-descricao p {
 
     margin-left: 5%;
-    text-align: justify;
+    text-align: center;
     font-size: 1rem;
 }
 
@@ -139,4 +140,68 @@
     margin-left: 5%;
     margin-right: 5%;
     line-height: 1.1rem;
+}
+
+
+.container-slogan {
+    background: rgb(248, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.titulo-slogan {
+
+    margin: 3% 0 3% 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.paragrafo-slogan {
+
+    font-size: 1rem;
+    text-align: center;
+
+    margin-bottom: 5%;
+}
+
+.contato {
+
+    display: flex;
+    font-family: 'Lato', sans-serif;
+}
+
+.items-contato1, .items-contato2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items-contato1 h3, .items-contato2 h3 {
+
+    font-size: 1.5rem;
+    margin: 3% 0 3% 0;
+    font-weight: bold;
+}
+
+.items-contato1 p, .items-contato2 p {
+    font-size: 1rem;
+    margin: 3%;
+    text-align: center;
+}
+
+
+.items-contato1 {
+
+    background:rgb(48, 79, 219, 0.9);
+    color: white;
+}
+
+.items-contato2 {
+
+    background: rgb(19, 17, 17, 0.8);
+    color: white;
 }
