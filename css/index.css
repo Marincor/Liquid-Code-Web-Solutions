@@ -205,3 +205,28 @@
     background: rgb(19, 17, 17, 0.8);
     color: white;
 }
+
+
+.footer  {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer p {
+
+    margin: 1% 0 1% 0 ;
+    font-size: 0.8rem;
+}
+
+.footer p a {
+
+    
+    color: white;
+
+}
+
